@@ -3,15 +3,24 @@ This project builds a PDF Document Question Answering system using Langchain, As
 
 Project Overview
   1)Text Extraction: Parses and extracts text from PDF documents.
+  <br>
   2)Embeddings Generation: Converts text into vector embeddings to facilitate semantic search.
+  <br>
   3)Vector Storage in Astra DB: Stores embeddings in Cassandra’s Astra DB with a vector index for efficient retrieval.
+  <br>
   4)Relevant Section Retrieval: Uses vector similarity to find document sections that align with a given question.
+  <br>
   5)LLM-Based Question Answering: Generates answers based on the content of retrieved sections, using Langchain’s LLM capabilities.
+  <br>
 
 Prerequisites
+<br>
   Python 3.7+
+  <br>
   Astra DB Account with a keyspace configured for vector storage.
+  <br>
   Google Colab or Local Development Environment
+  <br>
 
 Configuration
   Astra DB Setup: Configure Astra DB credentials and endpoint in the project.
